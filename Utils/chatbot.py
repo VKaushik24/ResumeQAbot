@@ -1,9 +1,9 @@
 import os
 import streamlit as st
 from langchain_core.messages import HumanMessage, AIMessage
-from document_loader import load_document,load_url
-from vector_store import get_vector_store
-from rag_chain import get_llm,get_retreiver_chain,get_conversational_rag
+from Utils.document_loader import load_document,load_url
+from Utils.vector_store import get_vector_store
+from Utils.rag_chain import get_llm,get_retreiver_chain,get_conversational_rag
 
 # Define the directory to save uploaded files
 UPLOAD_DIR = "uploads"

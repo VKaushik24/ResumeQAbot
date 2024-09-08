@@ -2,3 +2,4 @@ uploads/
 __pycache__/
 main_bkp.py
 ResumeQAbot/
+Utils/config.py

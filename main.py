@@ -1,7 +1,7 @@
 import streamlit as st
 import os
-from chatbot import initialize_session_state,handle_file_upload,display_chat_history,process_user_input,get_response
-from config import set_api_key
+from Utils.chatbot import initialize_session_state,handle_file_upload,display_chat_history,process_user_input,get_response
+from Utils.config import set_api_key
 
 
 ## Set API key for Llama model
